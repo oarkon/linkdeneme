@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "es2015",
+    "lib": [
+      "dom",
+      "es2018",
+      "esnext.asynciterable"
+    ],
+    //"declaration": true,
+    //"declarationMap": true,
+    //"sourceMap": true,
+    "declarationDir": "./Declatations",
+    "outDir": "./www/Lib",
+    "rootDir": "./Source",
+    "composite": true,
+    "removeComments": true,
+    "alwaysStrict": true, 
+    "baseUrl": "./Source",
+    "esModuleInterop": true, 
+    "experimentalDecorators": true, 
+    "emitDecoratorMetadata": true, 
+  },
+  "include": [
+    "Source/**/*"
+  ]
+}
